@@ -84,7 +84,7 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.13.0)
-    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.14.5)
@@ -126,6 +126,8 @@ GEM
       net-protocol
     nio4r (2.7.3)
     nokogiri (1.16.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.5.7)
@@ -239,6 +241,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
